@@ -46,7 +46,7 @@ setup(
     include_package_data=True,
     install_requires=[
         'django-appconf',
-        'https://github.com/Psylocibus/pilkit.git@psylocibus_custom_version',
+        'git+https://github.com/Psylocibus/pilkit.git@psylocibus_custom_version',
     ],
     extras_require={
         'async': ['django-celery>=3.0'],
